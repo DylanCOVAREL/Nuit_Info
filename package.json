@@ -1,0 +1,24 @@
+{
+  "name": "nuit_info",
+  "version": "1.0.0",
+  "description": "Projet prévention contre les MST Nuit de l'info 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanCOVAREL/Nuit_Info.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanCOVAREL/Nuit_Info/issues"
+  },
+  "homepage": "https://github.com/DylanCOVAREL/Nuit_Info#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
