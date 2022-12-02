@@ -6,4 +6,6 @@ const sexinfoControle = require('../controllers/controllerAccueil.js');
 // voir tous les messages
 routeur.get('/accueil', sexinfoControle.sexinfo_accueil)
 routeur.get('/quizz', sexinfoControle.sexinfo_quizz)
+routeur.get('/jeu', sexinfoControle.sexinfo_jeu)
+routeur.get('/infos', sexinfoControle.sexinfo_infos)
 module.exports = routeur;

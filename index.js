@@ -28,3 +28,13 @@ app.get('/', (req, res) => {
 .get('/quizz', function(req, res) {
     res.render('quizz')
     })
+
+
+.get('/jeu', function(req, res) {
+    res.render('jeu')
+    })
+
+
+.get('/infos', function(req, res) {
+    res.render('infos')
+    })
