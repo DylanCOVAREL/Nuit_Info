@@ -23,11 +23,9 @@ app.set("views",path.resolve(__dirname,'views'))
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 
 
-
-
 // activer le middleware et lancer l'application sur le port 3000
 app.use(express.json())
-app.listen(3000, () => console.log('le serveur SexInfo est prêt.'))
+app.listen(8100, () => console.log('le serveur SexInfo est prêt.'))
 
 // utiliser les routeurs
 app.get('/', (req, res) => {
