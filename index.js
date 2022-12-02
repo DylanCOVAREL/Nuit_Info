@@ -23,3 +23,8 @@ app.get('/', (req, res) => {
 .get('/accueil', function(req, res) {
     res.render('accueil')
     })
+
+//Afficher vue Quizz
+.get('/quizz', function(req, res) {
+    res.render('quizz')
+    })

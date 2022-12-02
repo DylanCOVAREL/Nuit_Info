@@ -5,6 +5,11 @@ const sexinfo_accueil = (req, res) => {
     modele.find()
 }
 
+const sexinfo_quizz = (req, res) => {
+    modele.find()
+}
+
 module.exports = {
-    sexinfo_accueil
+    sexinfo_accueil,
+    sexinfo_quizz
 }
