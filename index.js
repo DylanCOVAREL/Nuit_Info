@@ -38,3 +38,4 @@ app.get('/', (req, res) => {
 .get('/infos', function(req, res) {
     res.render('infos')
     })
+

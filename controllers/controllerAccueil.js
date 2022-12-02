@@ -21,5 +21,5 @@ module.exports = {
     sexinfo_accueil,
     sexinfo_quizz,
     sexinfo_jeu,
-    sexinfo_infos
+    sexinfo_infos,
 }
