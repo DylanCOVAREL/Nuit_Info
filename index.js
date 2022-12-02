@@ -24,6 +24,11 @@ app.get('/', (req, res) => {
     res.render('accueil')
     })
 
+//Afficher page accueil jeu 
+.get('/accueiljeu', function(req, res) {
+    res.render('accueiljeu')
+    })
+
 //Afficher vue Quizz
 .get('/quizz', function(req, res) {
     res.render('quizz')
@@ -38,4 +43,3 @@ app.get('/', (req, res) => {
 .get('/infos', function(req, res) {
     res.render('infos')
     })
-

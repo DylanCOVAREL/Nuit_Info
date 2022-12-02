@@ -5,6 +5,10 @@ const sexinfo_accueil = (req, res) => {
     modele.find()
 }
 
+const sexinfo_accueiljeu = (req, res) => {
+    modele.find()
+}
+
 const sexinfo_quizz = (req, res) => {
     modele.find()
 }
@@ -19,7 +23,8 @@ const sexinfo_infos = (req, res) => {
 
 module.exports = {
     sexinfo_accueil,
+    sexinfo_accueiljeu,
     sexinfo_quizz,
     sexinfo_jeu,
-    sexinfo_infos,
+    sexinfo_infos
 }
