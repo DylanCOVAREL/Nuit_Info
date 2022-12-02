@@ -2,6 +2,7 @@ const routeur = require('./routes/route.js');
 const express = require('express');
 const ejs = require('ejs');
 
+
 // activer les dépendances pour Express et EJS
 let app = express()
 app.set('view engine', 'ejs')
@@ -9,6 +10,9 @@ app.use(express.static('views'))
 app.use(express.static('public'))
 
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
+
+
+
 
 // activer le middleware et lancer l'application sur le port 3000
 app.use(express.json())
@@ -22,11 +26,6 @@ app.get('/', (req, res) => {
 //Afficher page accueil
 .get('/accueil', function(req, res) {
     res.render('accueil')
-    })
-
-//Afficher page accueil jeu 
-.get('/accueiljeu', function(req, res) {
-    res.render('accueiljeu')
     })
 
 //Afficher vue Quizz
@@ -43,3 +42,4 @@ app.get('/', (req, res) => {
 .get('/infos', function(req, res) {
     res.render('infos')
     })
+

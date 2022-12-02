@@ -10,7 +10,7 @@ const sexinfo_accueiljeu = (req, res) => {
 }
 
 const sexinfo_quizz = (req, res) => {
-    modele.find()
+
 }
 
 const sexinfo_jeu = (req, res) => {
