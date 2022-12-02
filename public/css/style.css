@@ -45,3 +45,41 @@
     top : 45%;
     background-color: #74b9ff;
 }
+
+.intro {
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 1.8em;
+    position: absolute;
+    left : 5%;
+    top : 35%;
+}
+
+.imagecontra {
+    background-size: 300px 150px;
+    position : absolute;
+    margin-left : -20px;
+    left : 38%;
+    top: 25%;
+}
+
+.text1 {
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 1.8em;
+    position: absolute;
+    top : 80%;
+    left : 20%;
+}
+
+.text2 {
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 1.8em;
+    position: absolute;
+    top : 90%;
+    left : 12%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
